@@ -1,0 +1,32 @@
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.indexpage {
+  /* background-color: lightgrey; */
+  /* width: 300px; */
+  border: 15px solid grey;
+  padding: 50px;
+  margin: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.button:disabled{
+  background-color: rgba(255, 0, 0, 0.719);
+}
